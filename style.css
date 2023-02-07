@@ -1,0 +1,617 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  background: #fdf2e9;
+}
+.first-button {
+  cursor: pointer;
+  color: rgb(245, 242, 242);
+  background-color: rgb(239, 87, 87);
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+}
+.first-button:hover {
+  background-color: rgb(155, 42, 42);
+}
+
+/* ==================================logo */
+.logo {
+  padding: 30px 30px 0;
+}
+/* ==================================navigation */
+
+.main-nav {
+  justify-content: end;
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li {
+  padding-top: 5px;
+  margin-right: 32px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.main-nav li:last-child {
+  background: #e67e22;
+  color: #fff;
+  padding: 5px 40px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+/* =====================================content */
+.main-section {
+  background: #fdf2e9;
+  padding: 48px 0;
+}
+.main-content-block {
+  max-width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0;
+  gap: 160px;
+}
+
+.content-block h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  margin-bottom: 32px;
+}
+
+.content-block h4 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #555555;
+  margin-bottom: 64px;
+}
+
+.first-link-button {
+  padding: 3%;
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #e67e22;
+  cursor: pointer;
+}
+
+.first-link-button:hover {
+  background: #d97116;
+}
+
+.second-link-button {
+  padding: 3%;
+  text-decoration: none;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.second-link-button:hover {
+  background-color: #fdf2e9;
+  border: 5px solid #fff;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  gap: 32px;
+}
+
+.users-img {
+  display: flex;
+}
+
+.users-img img {
+  border-radius: 50%;
+  margin-right: -16px;
+}
+
+.users {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.main-content-block img {
+  position: relative;
+}
+
+.food-img1 {
+  left: 250px;
+}
+
+.food-img2 {
+  left: 350px;
+  bottom: 155px;
+}
+
+.food-img3 {
+  bottom: 300px;
+  left: 100px;
+}
+
+/* =================================Featured */
+.section-featured {
+  padding: 48px 0 32px;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 32px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.featured-text {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #888888;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ====================================== section how */
+.section-how {
+  padding: 96px 0;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #e67e22;
+}
+
+.second-heading {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 47px;
+  margin: 16px 0 96px;
+  color: #333333;
+}
+
+.grid-center-v {
+  text-align: center;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+  display: grid;
+  column-gap: 64px;
+  row-gap: 96px;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  margin-bottom: 12px;
+  color: #dddddd;
+}
+
+.heading-tertiary {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  color: #333333;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #555555;
+}
+
+.app-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-img::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fff3e9;
+  z-index: -2;
+}
+
+.app-img::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #ffd8b7;
+  z-index: -1;
+}
+
+.app-img::before,
+.app-img::after {
+  content: "";
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ======================================== meal section */
+.section-meals {
+  padding: 96px;
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.center-text {
+  text-align: center;
+}
+
+.meal {
+  box-shadow: 0 24px 48px rgb(0 0 0 / 8%);
+  border-radius: 11px;
+}
+
+.meal-content {
+  padding: 32px 48px 48px;
+}
+
+.meal-tags {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 4px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 4px;
+  color: #333333;
+  border-radius: 100px;
+  font-family: "Rubik";
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.tag-vegetarian {
+  background-color: #51cf66;
+}
+
+.tag-paleo {
+  background: #f2c94c;
+}
+
+.meal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 32px;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.meal-attribute {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #555555;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #555555;
+  gap: 16px;
+}
+
+/* ================================ testimonial section */
+.section-testimonials {
+  background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 96px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 48px;
+  column-gap: 80px;
+}
+
+.testimonial-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  color: #555555;
+  margin-bottom: 16px;
+}
+
+.testimonial-name {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #999494;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+/* ========================================= pricing section */
+.section-pricing {
+  display: block;
+}
+
+.pricing-plan-starter {
+  justify-self: end;
+  border: 2px solid #fdf2e9;
+  padding: 46px;
+}
+
+.pricing-plan-complete {
+  background-color: #fdf2e9;
+  padding: 48px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-plan-complete::after {
+  content: " BEST VALUE";
+  position: absolute;
+  top: 6%;
+  right: -18%;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  color: #333333;
+  background: #f2c94c;
+  padding: 8px 80px;
+  transform: rotate(45deg);
+}
+
+.pricing-plan {
+  border-radius: 11px;
+  width: 75%;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.plan-name {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #e67e22;
+}
+
+.plan-price {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 66px;
+  color: #333333;
+}
+
+.plan-price span {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 38px;
+  margin-right: 8px;
+  color: #333333;
+}
+
+.plan-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #555555;
+}
+
+.plan-sing-up {
+  text-align: center;
+  margin-top: 48px;
+}
+
+/*========================================== registration section */
+.section-registration {
+  padding: 48px 0 128px;
+  /* width: 100vw; */
+  /* width: 1500px; */
+}
+
+.registration {
+  border-radius: 11px;
+  background: #e98f40;
+  width: 1100px;
+
+  /* width: 100vw; */
+}
+
+.registration-text-box {
+  padding: 48px 64px 64px;
+}
+
+.registration-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 174%;
+  color: #45260a;
+  margin-bottom: 41px;
+}
+
+.sign-up-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 32px;
+  row-gap: 24px;
+}
+
+.sign-up-form input,
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 9px;
+}
+
+.button-form {
+  background: #45260a;
+  padding: 12px;
+  align-self: flex-end;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.button-form:hover {
+  background-color: #fff;
+  color: #45260a;
+  transition: 0.2s;
+}
+
+.button-form:active {
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+/* =================================footer */
+footer {
+  padding: 128px 0;
+  border-top: 1px solid #dddddd;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.omni-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.copyright {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #555555;
+}
+
+.contacts {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #555555;
+  margin-bottom: 32px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #555555;
+  margin-bottom: 24px;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.footer-nav {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #555555;
+}
